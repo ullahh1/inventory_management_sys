@@ -1,0 +1,42 @@
+a
+    ‚½À`ú  ã                   @   s.   d dl mZmZ d dlZG dd„ dejƒZdS )é    )Ú
+migrationsÚmodelsNc                   @   s$  e Zd ZdZdgZejddejdddfdej	ddfgd	ejd
+dejdddfdej	ddfdej
+ddfdej
+ddfdej
+ddfdejddfdej
+ddfgd	ejddejdddfdej
+ddfdej
+dddfdej
+ddfdejdddfdej
+dddfdejddfgd	ejddejdddddfdejddfd ejddfd!ejddfdejejjjjd"d#d$fd%ejejjjjd&d'd$fgd	ejd(dejdddddfd)ej
+dd*dd+fd,ej
+dd*dd+fd-ej
+dd*dd+fd.ej
+dd*dd+fd/ej
+dd*dd+fd0ej
+dd*dd+fd1ej
+dd*dd+fd2ej
+dd*dd+fd3ej
+dd*dd+fd4ej
+dd*dd+fdejejjjjd5d#d$fgd	ejd6dejdddddfdejddfd ejddfd!ejddfdejejjjjd7d8d$fd%ejejjjjd9d'd$fgd	ejd:dejdddddfd)ej
+dd*dd+fd,ej
+dd*dd+fd-ej
+dd*dd+fd.ej
+dd*dd+fd/ej
+dd*dd+fd0ej
+dd*dd+fd1ej
+dd*dd+fd2ej
+dd*dd+fd3ej
+dd*dd+fd4ej
+dd*dd+fdejejjjjd;d8d$fgd	ejd<d=ejejjjjd>d?d$d@gZdAS )BÚ	MigrationT)Ú	inventoryÚ0001_initialÚPurchaseBillÚbillnoF)Úprimary_keyÚ	serializeÚtime)Úauto_now)ÚnameÚfieldsÚSaleBillr   é–   )Ú
+max_lengthÚphoneé   ÚaddresséÈ   Úemailéş   Úgstiné   ÚSupplierÚid)r   ÚuniqueÚ
+is_deleted)ÚdefaultÚSaleItemÚID)Úauto_createdr	   r
+   Úverbose_nameÚquantityé   ÚperpriceÚ
+totalpriceÚ
+salebillnoztransactions.SaleBill)Ú	on_deleteÚrelated_nameÚtoÚstockÚsaleitemzinventory.StockÚSaleBillDetailsÚewayé2   )Úblankr   ÚnullÚvehÚdestinationÚpoÚcgstÚsgstÚigstÚcessÚtcsÚtotalÚsaledetailsbillnoÚPurchaseItemÚpurchasebillnoztransactions.PurchaseBillÚpurchaseitemÚPurchaseBillDetailsÚpurchasedetailsbillnoZpurchasebillÚsupplierÚpurchasesupplierztransactions.Supplier)Ú
+model_namer   ÚfieldN)Ú__name__Ú
+__module__Ú__qualname__ÚinitialÚdependenciesr   ÚCreateModelr   Ú	AutoFieldÚDateTimeFieldÚ	CharFieldÚ
+EmailFieldÚBooleanFieldÚIntegerFieldÚ
+ForeignKeyÚdjangoÚdbÚdeletionÚCASCADEÚAddFieldÚ
+operations© rX   rX   úPF:\codeastro\Django\inventory-management\transactions\migrations\0001_initial.pyr      s²   ÿşşùşùşúşôşúşôşı¨r   )Ú	django.dbr   r   Údjango.db.models.deletionrR   r   rX   rX   rX   rY   Ú<module>   s   
